@@ -1,6 +1,7 @@
     .container {
         display: grid;
         grid-template-columns: 670fr 1270fr;
+        aspect-ratio: 1940/1050;
         overflow: hidden;
     }
 
@@ -71,8 +72,14 @@
     justify-content: space-between;
 }
 
+.container .container-left .footer .image{
+    width: 168rem;
+    height: 48rem;
+}
 
 .container .container-right {
+    width: 1270rem;
+    height: 1050rem;
     position: relative;
     background-image: url("./image/Rectangle\ \(1\).png");
     aspect-ratio: 1270 / 1050;
@@ -86,17 +93,23 @@
     position: absolute;
     top: 72rem;
     left: 268rem;
+    width: 698rem;
+    height: 624rem;
 }
 
 .container .container-right .next {
     position: absolute;
     top: 276rem;
+    width: 36rem;
+    height: 144rem;
     left: 0;
 }
 
 .container .container-right .laban {
     position: absolute;
     bottom: 258rem;
+    width: 96rem;
+    height: 96rem;
     left: 0;
 }
 
