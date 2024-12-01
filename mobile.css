@@ -109,4 +109,8 @@
         flex-direction: column;
     }
 
+    .container .container-right .select-room {
+        height: 274.66rem;
+    }
+
 }
