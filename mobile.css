@@ -1,0 +1,112 @@
+@media (max-width: 481px) {
+    .mt_mb_24 {
+        margin-top: 24rem;
+    }
+
+    .mt_mb_12 {
+        margin-top: 12rem;
+    }
+
+    .mr_mb_36 {
+        margin-right: 36rem;
+    }
+
+    .mr_mb_24 {
+        margin-right: 24rem;
+    }
+
+    .mr_mb_12 {
+        margin-right: 12rem;
+    }
+
+    .pt_pb_mb_12 {
+        padding: 12rem 0;
+    }
+
+    .fs_12 {
+        font-size: 12rem;
+    }
+
+    .hidden_mb {
+        display: none;
+    }
+
+    .floor {
+        width: 36rem;
+        height: 36rem;
+        line-height: 36rem;
+    }
+
+    .container {
+        grid-template-columns: 384fr 96fr;
+        aspect-ratio: 480 / 1066.66;
+        overflow: hidden;
+    }
+
+    .container .container-left {
+        width: 384rem;
+        height: 1066.66rem;
+        padding: 48rem 18rem 0;
+    }
+
+    .container .container-right {
+        height: 1066.66rem;
+    }
+
+    .container .container-left .top-content .title {
+        font-size: 24rem;
+    }
+
+    .container .container-left .top-content .desc:last-child {
+        margin-top: 18rem;
+    }
+
+    .container .container-left .mid-content .select-building .icon-tower {
+        width: 24rem;
+        height: 24rem;
+        margin-right: 18rem;
+    }
+
+    .container .container-left .mid-content .select-building .separation {
+        height: 24rem;
+    }
+
+    .container-left .mid-content .main-content .the-tower {
+        margin-right: 0;
+        height: 612rem;
+        width: 348rem;
+    }
+
+    .container .container-left .main-content .main-right {
+        display: none;
+    }
+
+    .container .container-left .sup-main-mb {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .container-left .sup-main-mb .sup-next {
+        width: 12rem;
+        height: 36rem;
+    }
+
+    .container .container-left .sup-main-mb .sup-select-floor {
+        gap: 30rem;
+    }
+
+    .container .container-left .sup-main-mb .title-select {
+        position: absolute;
+        padding: 0 11rem;
+        background-color: #fff;
+        color: #3b3b3b;
+        top: -6rem;
+    }
+
+    .container .container-left .footer {
+        flex-direction: column;
+    }
+
+}
