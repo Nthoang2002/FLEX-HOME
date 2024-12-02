@@ -117,6 +117,48 @@ body {
     border: 1rem solid rgba(255, 255, 255, 1);
 }
 
+@media(max-width : 769px){
+    .mt_tl_36 {
+        margin-top: 36rem;
+    }
+}
+
+
+@media (max-width: 481px) {
+    .mt_mb_24 {
+        margin-top: 24rem;
+    }
+
+    .mt_mb_12 {
+        margin-top: 12rem;
+    }
+
+    .mr_mb_36 {
+        margin-right: 36rem;
+    }
+
+    .mr_mb_24 {
+        margin-right: 24rem;
+    }
+
+    .mr_mb_12 {
+        margin-right: 12rem;
+    }
+
+    .pt_pb_mb_12 {
+        padding: 12rem 0;
+    }
+
+    .fs_mb_12 {
+        font-size: 12rem;
+    }
+
+    .floor {
+        width: 36rem;
+        height: 36rem;
+    }
+
+}
 
 
 @media only screen and (max-aspect-ratio:1940/1050)and (min-width:768px) {
@@ -136,11 +178,6 @@ body {
     html {
         font-size: 0.1302083333333333vw;
     }
-
-    .mt_tl_36 {
-        margin-top: 36rem;
-    }
-    
 }
 
 @media only screen and (min-aspect-ratio:3/4)and (max-width:768px) {

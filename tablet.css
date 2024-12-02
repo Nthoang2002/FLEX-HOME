@@ -1,4 +1,5 @@
 @media(max-width : 769px){
+    
     .container {
         display: grid;
         grid-template-columns: 670fr 98fr;
